@@ -1,0 +1,547 @@
+@media (max-width:1100px) {
+
+    #main-header {
+
+        grid-template-areas: ". logo nav nav nav nav nav nav nav nav";
+    }
+
+    #main-header .div-logo {
+
+        width: 60%;
+    }
+    #main-header .div-logo #logo{
+        width: 80%;
+    }
+
+
+    #main-header #main-nav ul {
+        width: 100%;
+    }
+    
+    #main-header .btn-nav {
+        display: none;
+    }
+
+
+    /* ------------- section-0 --------------- */
+
+    main .section-0 {
+        height: 90vh;
+    }
+
+    main .section-0 .article-0 {
+        margin-top: -100px;
+        height: 80vh;
+    }
+
+
+
+    main .section-0 .article-0 .presentation #main-title {
+        font-size: 40px;
+    }
+
+    main .section-0 .article-0 .presentation {
+        width: 90%;
+
+    }
+
+    main .section-0 .article-0 .presentation .presentation-column-0 {
+    }
+
+    main .section-0 .article-0 .presentation .btn-article {
+        min-width: 300px;
+        width: 80%
+
+    }
+    main .section-0 .article-0 .presentation .btn-article a {
+        min-width: 100px;
+        width: 50%
+
+    }
+
+
+
+
+
+    /* ------------------- SECTION-1 ------------------ */
+
+
+    main .section-1 .article-1, main .section-1 .article-2 {
+        
+        min-width: 450px;
+    } 
+
+
+
+    /* -------------------- SECTION-2 -------------------- */
+
+
+
+    main .section-2-form .article-3-form {
+        width: 70%;
+        min-width: 500px;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    main .section-2-form .article-3-form .div-column-0 {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+/* -------------------------- NAVIGATION BAR TELEPHONE ------------------------ */
+@media (max-width:800px) {
+    #main-header {
+
+        grid-template-areas: ". logo nav nav nav nav nav nav nav nav";
+    }
+
+
+    #main-header #main-nav {
+        display: none;
+        
+    }
+
+    #main-header .tirer-menu {
+        width: 40px;
+        height: 45px;
+        position: absolute;
+        right: 15px;
+        top: 21px;
+        grid-area: tirer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #main-header .tirer-menu .tirer {
+        background-color: rgb(185, 114, 114);
+        height: 5px;
+        width: 36px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    #main-header .tirer-menu:hover {
+        cursor: pointer;
+    }
+
+    #main-header .tirer-menu:active .premier {
+        transform: rotate(90deg);
+        background-color: blue;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform-origin: 15% 60%;
+    }
+    #main-header .tirer-menu:active .deux {
+        transform: rotate(90deg);
+        background-color: rgb(0, 0, 0);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+    }
+    #main-header .tirer-menu:active .troix {
+        transform: rotate(90deg);
+        background-color: rgb(30, 255, 0);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform-origin: 90% 60%;
+    }
+
+
+
+    #main-header .div-menu-tel {
+        position: absolute;
+        width: 40%;
+        height: 400px;
+        top: 85px;
+        right: 0;
+    }
+    #main-header .div-menu-tel ul {
+        background-color: rgb(158, 149, 149);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #main-header .div-menu-tel ul .item-tel {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        height: 15%
+    }
+    #main-header .div-menu-tel ul .item-tel:hover {
+        background-color: aqua;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width:650px) {
+
+    /* -------------- FOOTER-0 ------------------ */
+
+    /* #main-header {
+
+        grid-template-areas: "logo logo logo logo nav nav nav nav nav nav";
+    } */
+
+    #main-header #main-nav {
+        display: none;   
+    }
+
+
+
+    /* -------------- SECTION-0 ------------------ */
+
+    main .section-0 {
+        
+    }
+
+    main .section-0 .article-0 {
+        margin-top: -100px;
+        background-position: 50%;
+        background-size: 1500px;
+    }
+
+    main .section-0 .article-0 .presentation #main-title {
+        font-size: 30px;
+    }
+
+    main .section-1 .article-1 .description .description-column-0:last-child a {
+        font-size: 30px;
+
+    }
+
+
+
+
+    /* ------------------ SECTION-1 ----------------- */
+    
+    main .section-1 .article-2 .div-article2-title .title-article {
+        font-size: 30px;
+
+    }
+
+    main .section-1 .article-2 .services .service .lien-service {
+        font-size: 20px;
+
+    }
+
+
+
+
+    /* ----------------- SECTION-2 ----------------- */
+    main .section-2-form .article-3-form {
+        width: 100%;
+        min-width: 480px;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    main .section-2-form .article-3-form  #form-message {
+        width: 80%;
+    }
+
+    main .section-2-form .article-3-form .div-column-0 {
+        width: 80%;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* ------------ Footer ------------ */
+
+    #main-footer .footer-container {
+        width: 100%;
+    }
+
+    #main-footer .container .footer-column-0:first-child .info-footer { 
+        width: 100px;
+    }
+    #main-footer .container .footer-column-0:first-child .info-footer a {
+        font-size: 30px;
+        color: rgb(190, 14, 14);
+        font-weight: 300;
+    }
+
+    #main-footer .footer-container .footer-column-0:last-child {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #main-footer .footer-container .footer-column-0 .info-footer a {
+        font-size: 25px;
+        color: #dcdce9;
+        font-weight: 400;
+    }
+
+
+}
+
+
+
+
+/* ------------------ Mode Telephone ------------------- */
+
+@media (max-width: 500px) {
+
+
+
+
+
+    /* -------------- HEADER ------------------ */
+
+    #main-header {
+
+        grid-template-columns:25px 300px repeat(8, 1fr);
+    }
+
+    #main-header .div-logo {
+        width:40%;
+    }
+    #main-header .div-logo #logo {
+        width:100%;
+    }
+
+
+
+    /* ---------------- SECTION-0 ------------------- */
+
+
+    main .section-0 .article-0 .presentation #main-title {
+        font-size: 20px;
+    }
+    
+    main .section-0 .article-0 {
+        margin-top: -100px;
+        background-position: -620px;
+        background-size: 1500px;
+    }
+
+
+
+
+
+
+
+
+    /* ------------------------- menuBurger -------------------------- */
+
+
+
+
+
+
+
+
+
+    /* --------------------- SECTION-0--------------------- */
+    main .section-0 .article-0 .presentation {
+        width: 90%;
+
+    
+    }
+
+    main .section-0 .article-0 .presentation .presentation-column-0 {
+        width: 80%;
+    }
+
+    main .section-0 .article-0 .presentation .btn-article {
+        width: 90%;
+
+    }
+
+
+
+    /* ------------------SECTION-1 -------------------- */
+
+
+
+
+
+
+    /* ------------ Footer ------------ */
+
+    #main-footer .footer-container .footer-column-0:first-child .info-footer {
+        width: 100%;
+    }
+    
+    #main-footer .footer-container .footer-column-0:first-child .info-footer a {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 200;
+    }
+
+
+
+
+
+
+    /* -------------- MAIN ------------------ */
+    main {
+        row-gap: 50px;
+    }
+
+
+
+
+    /* ----------------- SECTION-1 ------------------ */
+    main .section-1 {
+        width: 100%;
+        min-width: 0px;
+    }
+
+
+    /* ------------------- ARTICLE-1 ----------------- */
+    main .section-1 .article-1 {
+        width: 100%;
+        min-width: 0px;
+    }
+
+    main .section-1 .article-1 .description {
+        width: 100%;
+        row-gap: 50px;
+    }
+
+    main .section-1 .article-1 .description .description-column-0 {
+        width: 95%;
+        min-width: 0px;
+        min-height: 320px;
+        row-gap: 20px;
+    }
+
+    main .section-1 .article-1 .description .description-column-0 .title-descritopn-article2 {
+        font-size: 25px
+    }
+    
+    main .section-1 .article-1 .description .description-column-0:last-child .title-descritopn-article2{
+        font-size: 30px
+    }
+
+    main .section-1 .article-1 .description .description-column-0:last-child a {
+        font-size: 25px;
+    }
+
+
+
+
+    /* ------------------ article-2 ------------------- */
+    main .section-1 .article-2 {
+        width: 100%;
+        min-width:0px;
+
+    }
+
+
+
+
+
+    /* ----------------- SECTION-2 ---------------- */
+    main .section-2-form {
+        width: 100%;
+        min-width: 0;
+
+    }
+
+    main .section-2-form .article-3-form {
+        min-width: 0;
+    }
+
+    main .section-2-form .article-3-form .div-column-0 {
+        width: 95%;
+        align-items: center;
+        height: 300px;
+        min-width: 250px;
+    }
+
+    main .section-2-form .article-3-form #form-message {
+        width: 95%;
+    }
+
+    main .section-2-form .article-3-form .div-column-0 .title-article {
+        font-size: 25px;
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 300px){
+
+    #main-header .div-logo {
+        width:30%;
+    }
+    #main-header .div-logo #logo {
+        width:100%;
+    }
+
+    /* ---------------- SECTION-0 ------------------ */
+    main .section-0 .article-0 {
+        margin-top: -100px;
+        background-position: -700px;
+        background-size: 1500px;
+    }
+
+    main .section-0 .article-0 .presentation .btn-article {
+        min-width: 0px;
+    }
+
+
+
+    main .section-1 .article-1 .description .description-column-0:last-child a {
+        font-size: 20px
+    }
+
+    main .section-1 .article-2 .services {
+        width: 100%;
+    }
+
+
+    /* ------------------- Footer ------------------- */
+
+    #main-footer .footer-container .footer-column-0 {
+        width: 90%;
+    }
+
+    #main-footer .footer-container .footer-column-0:first-child .div-logo {
+        width: 100%;
+    }
+    
+}
